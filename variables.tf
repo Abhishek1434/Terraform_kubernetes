@@ -6,7 +6,7 @@ variable "name" {
 variable "instance_count" {
   description = "Number of instances to launch"
   type        = number
-  default     = 5
+  default     = 10
 }
 
 variable "ami" {
